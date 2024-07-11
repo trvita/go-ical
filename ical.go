@@ -376,7 +376,7 @@ func (prop *Prop) SetText(text string) {
 // data URI is returned.
 func (prop *Prop) URI() (*url.URL, error) {
 	switch t := prop.ValueType(); t {
-	case ValueDefault, ValueURI:
+	case ValueDefault, ValueURI, ValueCalendarAddress:
 		return url.Parse(prop.Value)
 	case ValueBinary:
 		mediaType := prop.Params.Get(ParamFormatType)

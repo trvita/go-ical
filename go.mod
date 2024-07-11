@@ -1,4 +1,4 @@
-module github.com/emersion/go-ical
+module github.com/trvita/go-ical
 
 go 1.13
 

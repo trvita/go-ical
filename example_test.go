@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/emersion/go-ical"
+	"github.com/trvita/go-ical"
 )
 
 func ExampleDecoder() {

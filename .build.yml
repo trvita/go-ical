@@ -2,7 +2,7 @@ image: alpine/edge
 packages:
   - go
 sources:
-  - https://github.com/emersion/go-ical
+  - https://github.com/trvita/go-ical
 artifacts:
   - coverage.html
 tasks:
